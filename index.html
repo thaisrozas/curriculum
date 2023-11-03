@@ -1,13 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu curriculo</title>
-</head>
-<body>
-    <p>Opa! Esse site está em manutenção!</p>
-    <p>Volte novamente mais tarde!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu currículo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <img class="nav-icon" src="./coding_711284.png" alt="" />
+        <li class="navbar-item">
+          <a class="navbar-item-link" href="#home">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-item-link" href="#about">About me</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-item-link" href="#experience">Experience</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-item-link" href="#skills">My skills</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-item-link" href="#projects">Personal Projects</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-item-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="header-text">
+        <h1>Hi! I am Thaís Rozas!</h1>
+        <h2>Frontend Developer</h2>
+        <p>
+          About me. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Quos quibusdam temporibus incidunt. Quasi ullam repudiandae pariatur,
+          amet odit asperiores omnis aperiam tenetur, voluptates ducimus
+          aliquid, repellat voluptatum officia enim iusto.
+        </p>
+        <button class="header-download">Download my resume</button>
+      </div>
+      <img
+        src="./colorful-illustration-female-programmer-working_23-2148277397-removebg-preview.png"
+        alt=""
+      />
+    </header>
+    <main class="content">
+      <section class="content-about">
+        <hr>
+        <h3 id="about">About me</h3>
+        <p class="content-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque illum earum quae aliquam minus officia dolor aut facilis omnis esse ut, perspiciatis maxime aspernatur dolorem labore consequatur natus cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, deserunt omnis cum eius nostrum natus aut quia vitae voluptates quidem nesciunt a accusantium perspiciatis eligendi accusamus dolorem porro vel fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tempore ullam, sapiente commodi aliquam excepturi illum tempora ratione dolores quos molestiae repudiandae voluptatibus amet neque facilis. Modi quidem porro aspernatur!</p>
+      </section>
+      <section class="content-experience">
+        <hr>
+        <h3 id="experience">Experience</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consectetur quasi inventore corporis, pariatur, autem suscipit tempora quod ducimus similique unde voluptatibus dicta! Autem facilis minus numquam, porro esse aliquam!</p>
+        <div class="line">
+          <div class="item-experience" id="first"></div>
+          <div class="item-experience" id="second"></div>
+          <div class="item-experience" id="third"></div>
+          <div class="item-experience" id="fourth"></div>
+        </div>
+      </section>
+      <section class="content-skills">
+        <hr>
+        <!-- <img class="content-icon" src="./brain_5847331.png" alt=""> -->
+        <h3 id="skills">My skills</h3>
+        <!-- <hr> -->
+        <p class="content-description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+          aut dolor accusantium soluta accusamus obcaecati facere eius, sunt eos
+          eum fugiat eveniet minus aliquid atque excepturi similique, corporis
+          odit voluptatem.
+        </p>
+        <div class="wrapper">
+          <!-- <div class="skill-progress" data-progress="300" style="--progress: 300deg;" data-text="HTML"></div> -->
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./html-5_732212.png" alt="" />
+                <h4>HTML5</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <!-- <span class="card-tag">Frontend Development</span> -->
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./css-3_732190.png" alt="" />
+                <h4>CSS</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./b5-removebg-preview.png" alt="" />
+                <h4>Bootstrap</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./tailwind-removebg-preview.png" alt="" />
+                <h4>Tailwind</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./sass_5968358.png" alt="" />
+                <h4>Sass</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./js_5968292.png" alt="" />
+                <h4>Javascript</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./git-removebg-preview.png" alt="" />
+                <h4>Version control with Git</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+                <img class="card-icon" src="./png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail-removebg-preview.png" alt="" />
+                <h4>React</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad! Molestiae velit quo ullam odio et?</p>
+            </div>
+            <div class="card-flip">
+                <span><strong>Courses and certificates</strong></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+          </div>
+        </div>
+        <p class="content-description">But it's not only hard skils...</p>
+        <div class="wrapper2">
+            <div class="card">
+                <h4>Adaptabilidade</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo illum accusamus quos! Ab consequuntur soluta aliquam numquam reprehenderit magnam labore totam, quasi, eaque delectus, laudantium sit? Unde, quas delectus.</p>
+            </div>
+            <div class="card">
+                <h4>Proatividade</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo illum accusamus quos! Ab consequuntur soluta aliquam numquam reprehenderit magnam labore totam, quasi, eaque delectus, laudantium sit? Unde, quas delectus.</p>
+            </div>
+            <div class="card">
+                <h4>Resolução de problemas</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo illum accusamus quos! Ab consequuntur soluta aliquam numquam reprehenderit magnam labore totam, quasi, eaque delectus, laudantium sit? Unde, quas delectus.</p>
+            </div>
+            <div class="card">
+                <h4>Organização</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo illum accusamus quos! Ab consequuntur soluta aliquam numquam reprehenderit magnam labore totam, quasi, eaque delectus, laudantium sit? Unde, quas delectus.</p>
+            </div>
+            <div class="card">
+                <h4>Trabalho em equipe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo illum accusamus quos! Ab consequuntur soluta aliquam numquam reprehenderit magnam labore totam, quasi, eaque delectus, laudantium sit? Unde, quas delectus.</p>
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
